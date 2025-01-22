@@ -891,7 +891,7 @@ export interface ManagerOptions {
 	plugins?: Plugin[];
 	/** Whether players should automatically play the next song. */
 	autoPlay?: boolean;
-	/** The search platform autoplay should use. Failback to Youtube if not found.
+	/** The search platform autoplay should use. Fallback to Youtube if not provided.
 	 * Use enum `SearchPlatform`. */
 	autoPlaySearchPlatform?: SearchPlatform;
 	/** An array of track properties to keep. `track` will always be present. */
